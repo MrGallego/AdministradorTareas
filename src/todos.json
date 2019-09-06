@@ -1,0 +1,28 @@
+{
+    "todos":[
+        {
+            "titulo": "Tarea 1",
+            "responsable": "Marco",
+            "descripcion": "Testear",
+            "prioridad": "Baja"
+        },
+        {
+            "titulo": "Tarea 2",
+            "responsable": "Mar",
+            "descripcion": "Describir",
+            "prioridad": "Alta"
+        },
+        {
+            "titulo": "Tarea 3",
+            "responsable": "Luis",
+            "descripcion": "Testar",
+            "prioridad": "Media"
+        },
+        {
+            "titulo": "Tarea 4",
+            "responsable": "Lucas",
+            "descripcion": "Diseñar",
+            "prioridad": "Media"
+        }
+    ]
+}

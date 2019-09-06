@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Iceland);
+#chronometer span #seconds {
+    text-align: right;
+}
+
+#chronometer {
+    font-family: 'Iceland', sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-shadow: 0 0 10px rgba(23, 140, 140, 0.75);
+    border: 2px solid #191414;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px -2px 10px 1px rgb(33, 30, 30) inset, 0px 5px 20px -10px #000c;
+    width: auto;
+    color: #ffffff;
+    background: #000000;
+    height: 30px;
+}
+
+#log {
+    margin: 35px auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 0px 0px 6px rgba(23, 140, 140, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    display: none;
+    padding: 10px
+}
+
+#buttons a {
+    font-family: 'Iceland', sans-serif;
+    margin: 20px 0;
+    background-color: #182227;
+    box-shadow: 0px 0px 10px 1px rgba(23, 140, 140, 0.2) inset;
+    border-radius: 6px;
+    border: 2px solid #222;
+    display: inline-block;
+    color: #ddd;
+    font-family: arial;
+    font-size: 7px;
+    font-weight: bold;
+    line-height: 30px;
+    width: auto;
+    text-decoration: none;
+    transition: all 0.1s
+}
+
+#buttons a:hover {
+    color: #fff;
+    box-shadow: 0px 0px 30px 1px rgba(23, 140, 140, 0.5) inset;
+}
+
